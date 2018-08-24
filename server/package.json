@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "port": "3333",
+  "db": {
+    "url": "mongodb://192.168.43.244:27017",
+    "dbname": "maoyan_data"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "express": "~4.14.0",
+    "ykt-mongo": "^1.0.4",
+    "multiparty": "^4.1.3"
+  }
+}
