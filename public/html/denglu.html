@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/reset.css"/>
+    <link rel="stylesheet" href="../css/denglu.css"/>
+</head>
+<body>
+<div class="container">
+    <div>
+        <a href="../html/index.html">  <img src="../image/normal_01.png" alt=""></a>
+    </div>
+    <div class="box1">
+        <div><img src="../image/dengluyemian.png" alt=""></div>
+        <div>
+            <div id="error"><img src="../images/errror.png" alt="">  <span id="error_tips">账号或密码错误，请重新输入</span> </div>
+            
+            <section class="box11">
+                <p>账号登陆</p>
+                <a href="" class="font20">手机动态码登陆 <i class="tubiao1"></i></a>
+            </section>
+            <form action="/login" method="post">
+            <section>
+                <i class="tubiao2"></i>
+                <input type="text" name="phone" class="shurukuang" placeholder="手机号/用户名/邮箱" id="phone">
+            </section>
+            <section>
+                <i class="tubiao3"></i>
+                <input type="password" name="pwd" class="shurukuang"  placeholder="密码" id="pwd">
+            </section>
+            <section class="box12">
+               <p> <input type="checkbox">7天自动登陆</p>
+                <a href="" class="font20">忘记密码?</a>
+            </section>
+            <section>
+                <button id="submit">登陆</button>
+            </section>
+            </form>
+            <section>
+                <p>还没有账号?      <a href="../html/zhuce.html">免费注册</a></p>
+            </section>
+        </div>
+    </div>
+    <footer>
+       <p> ©2016 猫眼电影 maoyan.com 京ICP证160733号 京ICP备16022489号-1 京公网安备 11010502030881号 网络文化经营许可证 电子公告服务规则</p>
+    </footer>
+
+
+</div>
+
+<script src="../javascripts/jquery-1.12.4.min.js"></script>
+<script src="../javascripts/login.js"></script>
+</body>
+</html>

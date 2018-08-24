@@ -1,0 +1,95 @@
+.container
+{
+    width: 870px;
+    margin: 0 auto 0;
+    padding-top:50px ;
+    font-size: 14px;
+    color: #666;
+
+}
+#error{
+    width: 270px;
+    font-size: 12px;
+    background-color: rgb(255, 246, 219);
+    border:1px solid rgb(245, 216, 167);
+    height: 24px;
+    line-height: 24px;
+    padding: 3px 0px  3px 20px ;
+    margin-bottom:20px;
+    visibility: hidden; 
+    
+}
+.box1
+{
+    margin: 40px 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box1>div:first-child
+{
+
+    flex-grow: 1;
+    /*flex-shrink: 1;*/
+}
+.tubiao1
+{
+    width: 12px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url("../image/phone_07.png");
+}
+.box11
+{
+    display: flex;
+    justify-content: space-between;
+}
+input
+{
+    outline: none;
+}
+.shurukuang
+{
+    width: 250px;
+    height: 24px;
+    outline: none;
+    padding: 3px  20px ;
+    margin: 10px 0;
+
+}
+button
+{
+    width: 290px;
+    height: 34px;
+    background-color: #e93b40;
+    border-radius: 5px ;
+    border: none;
+    margin: 10px 0;
+    color: white;
+    font-size: 18px;
+}
+a
+{
+    text-decoration: none;
+    color: #e93b40
+}
+.box12
+{
+    display: flex;
+    justify-content: space-between;
+}
+ a
+{
+    color: #e93b40
+}
+ .font20
+ {
+     font-size: 12px;
+ }
+ footer
+ {
+     font-size: 12px;
+     color: #cccccc;
+     text-align: center;
+ }

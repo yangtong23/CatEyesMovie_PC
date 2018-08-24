@@ -1,0 +1,85 @@
+header
+{
+    border-bottom:2px solid #e02025;
+    padding: 8px 0 10px;
+    padding-left: 465px;
+
+}
+
+.container
+{
+    padding:40px  0  40px  500px  ;
+    color: #333;
+    font-size: 14px;
+}
+.container>form>table>tbody>tr>td:first-child
+{
+    text-align: right;
+     
+
+}
+.container>form>table>tbody>tr>td:nth-child(2)
+{
+
+    padding: 0px 10px;
+}
+.container>form>table>tbody>tr>td:nth-child(3)
+{
+
+    font-size: 12px;
+    color: rgb(153,153,153);
+}
+#acct_code{
+    /* border: none; */
+    /* border-radius: 1px; */
+    font-size: 13px;
+    color: #333;
+    /* background: #e02025 */
+}
+input
+{
+    outline: none;
+}
+.kuangkuang
+{
+  width: 260px;
+    height: 22px;
+}
+tr
+{
+    height: 40px;
+    line-height: 40px;
+}
+button
+{
+    outline: none;
+    border: none;
+    width: 265px;
+    height: 32px;
+    color: white;
+    background-color: #e42c31;
+    border-radius: 6px;
+}
+.font0
+{
+    font-size: 12px;
+    color: #e42c31;
+}
+.qiangdu>span
+{
+    display: inline-block;
+    padding: 0px 35px;
+    background-color: #eeeeee;
+    line-height: 20px;
+    font-size: 14px; 
+    color: white;       
+}
+footer
+{
+    width: 100%;
+    padding-top: 30px;
+    font-size: 12px;
+    border-top: 1px solid #eeeeee ;
+    color: #999999;
+    text-align: center;
+}

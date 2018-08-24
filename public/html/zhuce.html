@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/reset.css"/>
+    <link rel="stylesheet" href="../css/zhuce.css"/>
+</head>
+<body>
+<header>
+    <a href="../html/index.html"><img src="../image/logo.png" alt=""></a>
+</header>
+<div class="container">
+    <form action="/reg" method="POST">
+    <table>
+        <tr>
+            <td >手机号</td>
+            <td><input type="text" class="kuangkuang" name="phone" id="phone"></td>
+            <td>注册成功后,全美团通用</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="button" value="免费获取短信动态码" id="acct_code" ></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>短信验证码</td>
+            <td><input class="kuangkuang" type="text" id="code"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>创建密码</td>
+            <td><input class="kuangkuang" type="password" name="pwd" id="pwd"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="qiangdu">
+                <span id="min"> 弱 </span>
+                <span id="middle"> 中 </span>
+                <span id="max"> 强 </span>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td >确认密码</td>
+            <td><input class="kuangkuang" type="password"  id="Ispwd"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button id="submit">同意以下协议并注册</button></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="font0">《美团网用户协议》</td>
+            <td></td>
+        </tr>
+
+        
+    </table>
+    </form>
+</div>
+
+
+
+<footer>
+  <p> ©2016 猫眼电影 maoyan.com 京ICP证160733号 京ICP备16022489号-1 京公网安备 11010502030881号 网络文化经营许可证 电子公告服务规则</p>
+</footer>
+<script src="../javascripts/jquery-1.12.4.min.js"></script>
+<script src="../javascripts/reg.js"></script>
+</body>
+</html>
